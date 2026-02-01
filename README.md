@@ -37,13 +37,19 @@ prototyping, and selected open-source projects.
 ## Active work (in progress)
 The following repositories are under active development and experimentation:
 
-- **[Medicare Chat Assistant (LLM + RAG)](https://github.com/yazeze2/medicare-chat-assistant):**  
-  Prototype assistant grounded in Medicare-related content, exploring retrieval strategies,
-  chunking approaches, and lightweight open-source models.
+- **[Medicare Chat Assistant (LLM + RAG)](https://github.com/yazeze2/medicare-chat-assistant):**
+ Prototype assistant grounded in Medicare-related content, exploring retrieval strategies,
+ chunking approaches, and lightweight open-source models.
 
-- **[Image de-duplication for large photo libraries](https://github.com/yazeze2/image-dedupe-embeddings-based):**  
-  Embedding-based duplicate detection for very large personal photo collections, with an
-  emphasis on scalability, accuracy, and practical workflows.
+- **[Image de-duplication for large photo libraries](https://github.com/yazeze2/image-dedupe-embeddings-based):**
+ Embedding-based duplicate detection for very large personal photo collections, with an
+ emphasis on scalability, accuracy, and practical workflows.
+
+- **[Earnings Call Alerts (MVP)](https://github.com/yazeze2/earnings-call-alerts):**
+ Python CLI that tracks next earnings dates for a configurable watchlist (yfinance + Yahoo
+ quote page), diffs against stored state, and sends email reminders (Gmail API or SMTP) plus
+ optional Google Calendar events with 3-day and 1-day popup reminders. Designed for scheduled
+ runs (e.g. Task Scheduler) with no manual password entry when using Gmail OAuth.
 
 These repositories are intentionally iterative and will evolve as the approaches are validated.
 
@@ -59,5 +65,4 @@ focus areas and applied systems.
 ## Keywords (for search and indexing)
 data scientist, machine learning, healthcare analytics, LLM, RAG,
 retrieval augmented generation, embeddings, semantic similarity,
-Bayesian modeling, survival analysis
-
+Bayesian modeling, survival analysis, earnings alerts, Python CLI
