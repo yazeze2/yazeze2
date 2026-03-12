@@ -1,55 +1,46 @@
-# Yohannes Azeze (GitHub: yazeze2)
+# Yohannes Azeze
 
-Senior Data Scientist with a strong background in machine learning, statistical modeling,
-and applied AI. My work focuses on building practical systems with clear evaluation,
-robust assumptions, and real-world constraints—particularly in healthcare analytics
-and LLM-based applications.
+## Senior Data Scientist | Applied AI & ML Systems Architect
 
-This GitHub account (username: **yazeze2**) is used for hands-on experimentation,
-prototyping, and selected open-source projects.
+I focus on applied AI, machine learning systems, and healthcare analytics. I build practical AI solutions that combine strong modeling, LLM-assisted workflows, retrieval-augmented generation, and evaluation-driven system design to solve complex business problems at scale. My work centers on turning ambiguous business problems into usable technical systems, particularly in healthcare and regulated environments where reliability, explainability, and operational constraints matter.
 
-## Core expertise
+## Current focus areas include:
+- Applied AI and LLM-assisted workflows
+- Retrieval-Augmented Generation (RAG) and evaluation
+- Decision-support and intelligence systems
+- Fraud / waste / abuse analytics
+- Provider risk and escalation modeling
+- Model monitoring and deployment-aware design
+- AI solutions for regulated healthcare environments
 
-### Machine Learning & Modeling
-- Supervised and unsupervised ML
-- Imbalanced classification, survival and time-to-event modeling
-- Feature engineering, encoding strategies, and model interpretation
-- Evaluation design, calibration, and error analysis
+## Core Tech Stack
+- **Languages:** Python, SQL
+- **ML / DL:** PyTorch, TensorFlow, scikit-learn
+- **LLMs / GenAI:** Hugging Face, vLLM, llama.cpp
+- **Evaluation / Explainability:** RAGAS, TruLens, SHAP
+- **AI Systems / MLOps:** LlamaIndex, LangChain, ChromaDB, Milvus, FastAPI, Streamlit, MLflow, Airflow
+- **Version Control / DevOps:** GitHub, Azure DevOps
 
-### LLMs & Applied AI
-- Retrieval-Augmented Generation (RAG)
-- Chunking, context-window optimization, and reranking
-- Embeddings, semantic similarity, and grounding
-- Working with smaller open-source LLMs under compute constraints
-- Practical experimentation in Jupyter-first workflows
+## How I think about building
 
-### Healthcare & Domain Analytics
-- Provider-level risk and escalation modeling
-- Fraud, waste, and abuse signal engineering
-- Claims, utilization, and operational datasets
-- Emphasis on explainability and stakeholder communication
+I build AI systems with a strong emphasis on model quality, evaluation rigor, practical system design, and business impact. I’m particularly interested in solutions that are technically strong, operationally useful, and built to perform reliably in complex environments.
 
-### Data Science Workflow
-- Python, notebooks → reusable modules
-- Reproducible experiments and clear documentation
-- Emphasis on understanding *why* a model works (or fails)
+- designing evaluation approaches that go beyond surface-level performance
+- balancing quality with latency, cost, and usability
+- turning prototypes into reliable internal tools
+- building with real-world constraints in mind, including messy data, limited compute, and regulated environment
 
 ## Active work (in progress)
 The following repositories are under active development and experimentation:
 
 - **[Medicare Chat Assistant (LLM + RAG)](https://github.com/yazeze2/medicare-chat-assistant):**
- Prototype assistant grounded in Medicare-related content, exploring retrieval strategies,
- chunking approaches, and lightweight open-source models.
+ A domain-specific RAG assistant for Medicare policy and claims content using open-source LLMs. The project focuses on retrieval design, chunking strategy, grounding, and evaluation for domain-specific question answering.
 
 - **[Image de-duplication for large photo libraries](https://github.com/yazeze2/image-dedupe-embeddings-based):**
- Embedding-based duplicate detection for very large personal photo collections, with an
- emphasis on scalability, accuracy, and practical workflows.
+ An embeddings-based system for identifying duplicate and near-duplicate images in large photo libraries. Built around CLIP embeddings, similarity scoring, and grouping logic, with an emphasis on scalable workflow design, auditability, and future extensibility.
 
 - **[Earnings Call Alerts (MVP)](https://github.com/yazeze2/earnings-call-alerts):**
- Python CLI that tracks next earnings dates for a configurable watchlist (yfinance + Yahoo
- quote page), diffs against stored state, and sends email reminders (Gmail API or SMTP) plus
- optional Google Calendar events with 3-day and 1-day popup reminders. Designed for scheduled
- runs (e.g. Task Scheduler) with no manual password entry when using Gmail OAuth.
+ A Python-based alerting workflow for tracking earnings dates across a watchlist, detecting schedule changes, and sending automated reminders. Designed as a practical automation system with configurable state management and notification integration.
 
 These repositories are intentionally iterative and will evolve as the approaches are validated.
 
@@ -61,8 +52,3 @@ focus areas and applied systems.
 ## Contact / links
 - GitHub: **yazeze2**
 - LinkedIn: [https://www.linkedin.com/in/yohannes-azeze-9184a070/]
-
-## Keywords (for search and indexing)
-data scientist, machine learning, healthcare analytics, LLM, RAG,
-retrieval augmented generation, embeddings, semantic similarity,
-Bayesian modeling, survival analysis, earnings alerts, Python CLI
