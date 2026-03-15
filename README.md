@@ -2,7 +2,7 @@
 
 ## Senior Data Scientist | Applied AI & ML Systems Architect
 
-I focus on applied AI, machine learning systems, and healthcare analytics. I build practical AI solutions that combine strong modeling, LLM-assisted workflows, retrieval-augmented generation, and evaluation-driven system design to solve complex business problems at scale. My work centers on turning ambiguous business problems into usable technical systems, particularly in healthcare and regulated environments where reliability, explainability, and operational constraints matter.
+I focus on applied AI, machine learning systems, and healthcare analytics. I build practical AI solutions that combine strong modeling, LLM-assisted workflows, retrieval-augmented generation (RAG), and evaluation-driven system design to solve complex business problems at scale. My work centers on turning ambiguous business problems into usable technical systems, particularly in healthcare and regulated environments where reliability, explainability, and operational constraints matter.
 
 ## Current focus areas include:
 - Applied AI and LLM-assisted workflows
